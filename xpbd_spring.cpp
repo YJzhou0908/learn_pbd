@@ -13,7 +13,7 @@ using namespace std;
 GLFWwindow* window;
 uint32_t WIDTH = 800;
 uint32_t HEIGHT = 800;
-float DT = 0.033f;
+float DT = 0.033f; 
 uint32_t ITERATION = 10;
 
 

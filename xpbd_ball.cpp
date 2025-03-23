@@ -14,7 +14,7 @@
 
 using namespace std;
 
-GLFWwindow* window;
+GLFWwindow* window; 
 uint32_t WIDTH = 800;
 uint32_t HEIGHT = 800;
 uint32_t ITER = 30;

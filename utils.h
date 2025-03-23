@@ -6,7 +6,7 @@
 
 using namespace std;
 
-
+ 
 
 typedef struct Tetrahedron {
 	uint32_t mId;

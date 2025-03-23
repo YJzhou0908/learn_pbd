@@ -42,15 +42,15 @@ include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 link_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/lib)
 
-add_executable(xpbd_cloth "xpbd_cloth.cpp" "glad.c")
+add_executable(xpbd_cloth "xpbd_cloth.cpp" )
 
-add_executable(xpbd_ball "xpbd_ball.cpp"  "glad.c" )
+add_executable(xpbd_ball "xpbd_ball.cpp"   )
 
-add_executable(xpbd_spring "xpbd_spring.cpp" "glad.c" )
+add_executable(xpbd_spring "xpbd_spring.cpp"  )
 
-add_executable(xpbd_soft "xpbd_soft.cpp" "glad.c")
+add_executable(xpbd_soft "xpbd_soft.cpp" )
 
-add_executable(xpbd_col "xpbd_collision.cpp" "glad.c")
+add_executable(xpbd_col "xpbd_collision.cpp" )
 
 add_definitions(-DFREEGLUT_STATIC)
 target_link_libraries(xpbd_cloth freeglut_static.lib)
