@@ -1,11 +1,5 @@
 ## Mass-Spring 
 
-Constrain:
-
-$$
-C_{ij}(\mathbf{x}_i, \mathbf{x}_j) = \| \mathbf{x}_i - \mathbf{x}_j \| - d_{ij}
-$$
-
 Result:
 
 <div style="text-align: center;">
