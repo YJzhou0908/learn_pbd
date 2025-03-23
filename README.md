@@ -7,6 +7,7 @@ C_{ij}(\mathbf{x}_i, \mathbf{x}_j) = \| \mathbf{x}_i - \mathbf{x}_j \| - d_{ij}
 $$
 
 Result:
+
 <div style="text-align: center;">
 <img src="./gif/xpbd_spring.gif" style="width: 30%; height: auto;" />
 </div>
